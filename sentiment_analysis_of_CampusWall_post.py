@@ -10,7 +10,7 @@ posts_data = pd.read_csv('posts_emotion.csv')
 
 # 1 代表积极，0 代表消极
 # 1 indicates positive，0 indicates negative
-labels = [1, 0, 1, 0, 1]  # 这里是假设标签，实际情况需要通过人工标注或现有数据集
+labels = [1, 0, 1, 0, 1] 
 
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(posts_data['post_content'])
