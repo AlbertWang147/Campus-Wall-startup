@@ -10,7 +10,7 @@ posts_data = pd.read_csv('posts_emotion.csv')
 
 # 1 代表积极，0 代表消极
 # 1 indicates positive，0 indicates negative
-examples = [1, 0, 1, 0, 1] # just to take an example, as we need different data sets
+examples = [1, 0, 1, 0, 1] # just to take an example, as we need different sample sets
 
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(posts_data['post_content'])
