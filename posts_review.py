@@ -65,9 +65,9 @@ def process_post(post):
         violating_ratio = check_violating_content_ratio(post)
         
         if violating_ratio > 0.5:  #  if the ratio of violating words is over 50%, delete the post
-            return "Post deleted due to high violating content ratio."
+            return "Post deleted."
         else:  # flag for manual review
             return "Post flagged for manual review."
 
     else:
-        return "Post is safe."
+        return "Post is compliant."
