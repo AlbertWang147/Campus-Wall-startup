@@ -1,4 +1,4 @@
-Part of the code for Campus Wall:
+Part of the code for my Campus Wall startup:
    1. Test the impact of two different 'like' button designs on user interaction through A/B testing.
    2. Build a 'Campus Activities' recommendation system to recommend other activities that users may be interested in based on their interests (using collaborative filtering).
    3. Perform sentiment analysis on posts published by users to determine whether the posts are positive, negative, or neutral (using NLP).
